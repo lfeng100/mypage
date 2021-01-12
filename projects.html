@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Projects</title>
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- PERSONAL CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- FAVICON -->
+  <link rel="icon" href="images/favicon_io/favicon.ico">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans&family=Sarpanch:wght@500&display=swap" rel="stylesheet">
+  <!-- BOOSTRAP JQUERY AND JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/2f9bc3a604.js" crossorigin="anonymous"></script>
+  <!-- pallette: https://colorhunt.co/palette/189837 -->
+
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-warning navfont">
+    <a class="navbar-brand" href="index.html">lfeng100</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="projects.html">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+
+<body>
+
+  <div class="content container-fluid">
+    <div class="middleContainer">
+      <h2>My Projects.</h2>
+      <section id="projects">
+        <h3 class="project-header">Sharpen Tutoring</h3>
+        <p class="caption">Created as part of Junior Achievement's Company Program. As the VP IT, I created this website
+          utilizing various front and back-end tools. Page can be found @ <a target="_blank" href="https://www.sharpentutoring.com">sharpentutoring.com</a>
+          or at a mirror page <a target="_blank" href="https://www.bxi4u.com">here</a>.</p>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="10000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/sharpen1.png" class="d-block w-100" alt="sharpen-frontpage">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Front Page</h2>
+                <p>Made using Wordpress, HTML/CSS, and PHP.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sharpen2.png" class="d-block w-100" alt="sharpen-login">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Login Form</h2>
+                <p>Fully Functioning login/signup/password-reset. Information stored using Wordpress database</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sharpen3.png" class="d-block w-100" alt="sharpen-tutors">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Tutor database</h2>
+                <p>Stored using MySQL Database. Uses REST API to implement JSON data.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sharpen5.gif" class="d-block w-100" alt="sharpen-live">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Live Chat and Search</h2>
+                <p>Password protected live chat using PHP Wisechat plugin.
+                  <br>Live Search feature using JQUERY and Javascript.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="logos">
+        <img class="logo-image" src="images/sharpenlogo.png" alt="sharpen-logo">
+        <img class="logo-image" src="images/flickerlogo.png" alt="flicker-logo">
+        <img class="logo-image" src="images/mathsoclogo.png" alt="mathosoc-logo">
+        <img class="logo-image" src="images/comingsoon.png" alt="comingsoon-logo">
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
