@@ -100,6 +100,11 @@ hr {
   z-index: 3;
 }
 
+.difference {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
 .comp-icon {
   float: left;
   margin-right: 30px;
@@ -187,12 +192,12 @@ hr {
   font-weight: lighter;
 }
 
-.far {
+.fas, .far {
   color: #d0e8f2;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
-.far:hover {
+.fas:hover, .far:hover {
   color: #cf7500;
 }
 
@@ -226,6 +231,10 @@ hr {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background-color: #f0a500;
 }
+
+.contact-btn {
+  margin-bottom: 0;
+}
 /* ids */
 #profilepic {
   border: 10px solid #cf7500;
@@ -243,8 +252,9 @@ hr {
 }
 
 #logos {
-  background-color: #cf7500;
+  background-color: #fa9722;
   padding: 5%;
+  margin-bottom: -55px;
 }
 
 /* Media Queries */
