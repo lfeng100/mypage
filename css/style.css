@@ -192,6 +192,11 @@ hr {
   font-weight: lighter;
 }
 
+.games {
+  background-color: #fa9722;
+  padding: 7%;
+}
+
 .fas, .far {
   color: #d0e8f2;
   margin-bottom: 3rem;
@@ -223,6 +228,10 @@ hr {
   margin: 15px 100px 50px;
 }
 
+.logo-image:hover {
+  opacity: 75%;
+}
+
 .carousel-caption {
   background-color: #000;
   opacity: 50%;
@@ -230,10 +239,20 @@ hr {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background-color: #f0a500;
+  height: 100%;
+  width: 100%;
 }
 
 .contact-btn {
   margin-bottom: 0;
+}
+
+.demo-vid {
+  margin-top: 5%;
+}
+
+.flicker-demo {
+  width: 75%;
 }
 /* ids */
 #profilepic {
@@ -248,7 +267,7 @@ hr {
 
 #projects {
   padding: 5% 20%;
-  background-color: #d0e8f2;
+  background-color: #f4f4f4;
 }
 
 #logos {
@@ -283,6 +302,13 @@ hr {
     margin: auto -15px;
     padding-top: 150px;
   }
+
+
+  .carousel-caption {
+    background-color: #000;
+    size: 50%;
+    opacity: 50%;
+  }
 }
 
 @media (max-width: 950px) and (min-width: 590px){
@@ -291,6 +317,10 @@ hr {
     font-family: 'Sarpanch', sans-serif;
     font-size: 2.9rem;
     line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 100%;
   }
 
   .p {
@@ -309,5 +339,10 @@ hr {
     background-color: #fa9722;
     margin: auto -15px;
     padding-top: 200px;
+  }
+  .carousel-caption {
+    background-color: #000;
+    opacity: 50%;
+    font-size: 30%;
   }
 }
