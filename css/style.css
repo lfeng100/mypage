@@ -82,6 +82,14 @@ hr {
   color: #f4f4f4;
 }
 
+.link-dark {
+  color: #ffc107;
+}
+
+.link:hover {
+  color: #fa9722;
+}
+
 .bg-image {
   position: relative;
   width: 100%;
@@ -197,6 +205,11 @@ hr {
   padding: 7%;
 }
 
+.small-projects {
+  background-color: #f4f4f4;
+  padding: 7%;
+}
+
 .fas, .far {
   color: #d0e8f2;
   margin-bottom: 3rem;
@@ -252,6 +265,10 @@ hr {
   padding: 3%;
 }
 
+.project-demo {
+  width: 100%;
+}
+
 .flicker-demo {
   width: 75%;
 }
@@ -271,7 +288,7 @@ hr {
   background-color: #f4f4f4;
 }
 
-#logos {
+.flicker {
   background-color: #fa9722;
   padding: 5%;
   margin-bottom: -55px;
@@ -537,14 +554,19 @@ hr {
   font-weight: bolder;
 }
 
+.skills-heading-dark {
+  color: #cf7500;
+  font-weight: bolder;
+}
+
 .skills-description {
   color: #f4f4f4;
   font-weight: lighter;
 }
 
-.games {
-  background-color: #fa9722;
-  padding: 7%;
+.skills-description-dark {
+  color: #000;
+  font-weight: lighter;
 }
 
 .fas, .far {
@@ -562,8 +584,19 @@ hr {
   font-size: 4rem;
 }
 
+.project-header-light {
+  color: #f4f4f4;
+  padding: 4%;
+  font-family: 'Audiowide', cursive;
+  font-size: 4rem;
+}
 .caption {
   color: #cf7500;
+  margin-bottom: 3%;
+}
+
+.caption-light {
+  color: #f4f4f4;
   margin-bottom: 3%;
 }
 
@@ -614,11 +647,6 @@ hr {
   margin-top: 25px;
   object-fit: cover;
   width: 400px;
-}
-
-#projects {
-  padding: 5% 20%;
-  background-color: #f4f4f4;
 }
 
 #logos {
