@@ -643,9 +643,9 @@ hr {
   border: 10px solid #cf7500;
   border-radius: 100%;
   height: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 25px;
-  object-fit: cover;
+  object-fit: contain;
   width: 400px;
 }
 
