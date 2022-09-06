@@ -51,9 +51,18 @@
       <div class="col">
         <h1 class="title">Hey, I'm Leo.</h1>
         <p class="p">an aspiring
-          <a class="link" target="_blank" href="https://www.merriam-webster.com/dictionary/luminary">
+          <a class="link descriptorElement" target="_blank" href="https://www.merriam-webster.com/dictionary/luminary">
             <em>luminary</em>
           </a>
+          <script>
+            let element = document.getElementById("descriptorElement");
+            let descriptors = ["luminary", "entrepreneur", "activist", "trendsetter", "innovator"];
+            element.addEventListener("click", function(){
+              let randNum = Math.floor(Math.random() * 5);
+              element.innerHTML = descriptors[randNum];
+              element.href = "https://www.merriam-webster.com/dictionary/" + descriptors[randNum];
+            });
+          </script>
         </p>
       </div>
       <img class="bg-image" src="images/topbackground.svg" alt="top-background-img">
